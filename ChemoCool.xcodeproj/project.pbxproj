@@ -1,0 +1,939 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9863FD392DAC5E22000F563D /* ORSSerial in Frameworks */ = {isa = PBXBuildFile; productRef = 9863FD382DAC5E22000F563D /* ORSSerial */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9863FD122DAC5A69000F563D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9891C67F2DA2548800E869A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9863FD032DAC5A68000F563D;
+			remoteInfo = ChemoCoolMac;
+		};
+		9863FD1C2DAC5A69000F563D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9891C67F2DA2548800E869A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9863FD032DAC5A68000F563D;
+			remoteInfo = ChemoCoolMac;
+		};
+		9891C6952DA2548900E869A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9891C67F2DA2548800E869A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9891C6862DA2548800E869A4;
+			remoteInfo = ChemoCool;
+		};
+		9891C69F2DA2548900E869A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9891C67F2DA2548800E869A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9891C6862DA2548800E869A4;
+			remoteInfo = ChemoCool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9863FD042DAC5A68000F563D /* ChemoCoolMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemoCoolMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9863FD112DAC5A69000F563D /* ChemoCoolMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemoCoolMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9863FD1B2DAC5A69000F563D /* ChemoCoolMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemoCoolMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9891C6872DA2548800E869A4 /* ChemoCool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemoCool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9891C6942DA2548900E869A4 /* ChemoCoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemoCoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9891C69E2DA2548900E869A4 /* ChemoCoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemoCoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9863FD052DAC5A68000F563D /* ChemoCoolMac */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChemoCoolMac;
+			sourceTree = "<group>";
+		};
+		9863FD142DAC5A69000F563D /* ChemoCoolMacTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChemoCoolMacTests;
+			sourceTree = "<group>";
+		};
+		9863FD1E2DAC5A69000F563D /* ChemoCoolMacUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChemoCoolMacUITests;
+			sourceTree = "<group>";
+		};
+		9891C6892DA2548800E869A4 /* ChemoCool */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChemoCool;
+			sourceTree = "<group>";
+		};
+		9891C6972DA2548900E869A4 /* ChemoCoolTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChemoCoolTests;
+			sourceTree = "<group>";
+		};
+		9891C6A12DA2548900E869A4 /* ChemoCoolUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChemoCoolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9863FD012DAC5A68000F563D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9863FD392DAC5E22000F563D /* ORSSerial in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9863FD0E2DAC5A69000F563D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9863FD182DAC5A69000F563D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891C6842DA2548800E869A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891C6912DA2548900E869A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891C69B2DA2548900E869A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9863FD342DAC5D9B000F563D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9891C67E2DA2548800E869A4 = {
+			isa = PBXGroup;
+			children = (
+				9891C6892DA2548800E869A4 /* ChemoCool */,
+				9891C6972DA2548900E869A4 /* ChemoCoolTests */,
+				9891C6A12DA2548900E869A4 /* ChemoCoolUITests */,
+				9863FD052DAC5A68000F563D /* ChemoCoolMac */,
+				9863FD142DAC5A69000F563D /* ChemoCoolMacTests */,
+				9863FD1E2DAC5A69000F563D /* ChemoCoolMacUITests */,
+				9863FD342DAC5D9B000F563D /* Frameworks */,
+				9891C6882DA2548800E869A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9891C6882DA2548800E869A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9891C6872DA2548800E869A4 /* ChemoCool.app */,
+				9891C6942DA2548900E869A4 /* ChemoCoolTests.xctest */,
+				9891C69E2DA2548900E869A4 /* ChemoCoolUITests.xctest */,
+				9863FD042DAC5A68000F563D /* ChemoCoolMac.app */,
+				9863FD112DAC5A69000F563D /* ChemoCoolMacTests.xctest */,
+				9863FD1B2DAC5A69000F563D /* ChemoCoolMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9863FD032DAC5A68000F563D /* ChemoCoolMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9863FD232DAC5A69000F563D /* Build configuration list for PBXNativeTarget "ChemoCoolMac" */;
+			buildPhases = (
+				9863FD002DAC5A68000F563D /* Sources */,
+				9863FD012DAC5A68000F563D /* Frameworks */,
+				9863FD022DAC5A68000F563D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9863FD052DAC5A68000F563D /* ChemoCoolMac */,
+			);
+			name = ChemoCoolMac;
+			packageProductDependencies = (
+				9863FD382DAC5E22000F563D /* ORSSerial */,
+			);
+			productName = ChemoCoolMac;
+			productReference = 9863FD042DAC5A68000F563D /* ChemoCoolMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9863FD102DAC5A69000F563D /* ChemoCoolMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9863FD262DAC5A69000F563D /* Build configuration list for PBXNativeTarget "ChemoCoolMacTests" */;
+			buildPhases = (
+				9863FD0D2DAC5A69000F563D /* Sources */,
+				9863FD0E2DAC5A69000F563D /* Frameworks */,
+				9863FD0F2DAC5A69000F563D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9863FD132DAC5A69000F563D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9863FD142DAC5A69000F563D /* ChemoCoolMacTests */,
+			);
+			name = ChemoCoolMacTests;
+			packageProductDependencies = (
+			);
+			productName = ChemoCoolMacTests;
+			productReference = 9863FD112DAC5A69000F563D /* ChemoCoolMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9863FD1A2DAC5A69000F563D /* ChemoCoolMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9863FD292DAC5A69000F563D /* Build configuration list for PBXNativeTarget "ChemoCoolMacUITests" */;
+			buildPhases = (
+				9863FD172DAC5A69000F563D /* Sources */,
+				9863FD182DAC5A69000F563D /* Frameworks */,
+				9863FD192DAC5A69000F563D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9863FD1D2DAC5A69000F563D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9863FD1E2DAC5A69000F563D /* ChemoCoolMacUITests */,
+			);
+			name = ChemoCoolMacUITests;
+			packageProductDependencies = (
+			);
+			productName = ChemoCoolMacUITests;
+			productReference = 9863FD1B2DAC5A69000F563D /* ChemoCoolMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9891C6862DA2548800E869A4 /* ChemoCool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9891C6A82DA2548900E869A4 /* Build configuration list for PBXNativeTarget "ChemoCool" */;
+			buildPhases = (
+				9891C6832DA2548800E869A4 /* Sources */,
+				9891C6842DA2548800E869A4 /* Frameworks */,
+				9891C6852DA2548800E869A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9891C6892DA2548800E869A4 /* ChemoCool */,
+			);
+			name = ChemoCool;
+			packageProductDependencies = (
+			);
+			productName = ChemoCool;
+			productReference = 9891C6872DA2548800E869A4 /* ChemoCool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9891C6932DA2548900E869A4 /* ChemoCoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9891C6AB2DA2548900E869A4 /* Build configuration list for PBXNativeTarget "ChemoCoolTests" */;
+			buildPhases = (
+				9891C6902DA2548900E869A4 /* Sources */,
+				9891C6912DA2548900E869A4 /* Frameworks */,
+				9891C6922DA2548900E869A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9891C6962DA2548900E869A4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9891C6972DA2548900E869A4 /* ChemoCoolTests */,
+			);
+			name = ChemoCoolTests;
+			packageProductDependencies = (
+			);
+			productName = ChemoCoolTests;
+			productReference = 9891C6942DA2548900E869A4 /* ChemoCoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9891C69D2DA2548900E869A4 /* ChemoCoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9891C6AE2DA2548900E869A4 /* Build configuration list for PBXNativeTarget "ChemoCoolUITests" */;
+			buildPhases = (
+				9891C69A2DA2548900E869A4 /* Sources */,
+				9891C69B2DA2548900E869A4 /* Frameworks */,
+				9891C69C2DA2548900E869A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9891C6A02DA2548900E869A4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9891C6A12DA2548900E869A4 /* ChemoCoolUITests */,
+			);
+			name = ChemoCoolUITests;
+			packageProductDependencies = (
+			);
+			productName = ChemoCoolUITests;
+			productReference = 9891C69E2DA2548900E869A4 /* ChemoCoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9891C67F2DA2548800E869A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					9863FD032DAC5A68000F563D = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					9863FD102DAC5A69000F563D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 9863FD032DAC5A68000F563D;
+					};
+					9863FD1A2DAC5A69000F563D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 9863FD032DAC5A68000F563D;
+					};
+					9891C6862DA2548800E869A4 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					9891C6932DA2548900E869A4 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 9891C6862DA2548800E869A4;
+					};
+					9891C69D2DA2548900E869A4 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 9891C6862DA2548800E869A4;
+					};
+				};
+			};
+			buildConfigurationList = 9891C6822DA2548800E869A4 /* Build configuration list for PBXProject "ChemoCool" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9891C67E2DA2548800E869A4;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9863FD372DAC5E1E000F563D /* XCRemoteSwiftPackageReference "ORSSerialPort" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9891C6882DA2548800E869A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9891C6862DA2548800E869A4 /* ChemoCool */,
+				9891C6932DA2548900E869A4 /* ChemoCoolTests */,
+				9891C69D2DA2548900E869A4 /* ChemoCoolUITests */,
+				9863FD032DAC5A68000F563D /* ChemoCoolMac */,
+				9863FD102DAC5A69000F563D /* ChemoCoolMacTests */,
+				9863FD1A2DAC5A69000F563D /* ChemoCoolMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9863FD022DAC5A68000F563D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9863FD0F2DAC5A69000F563D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9863FD192DAC5A69000F563D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891C6852DA2548800E869A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891C6922DA2548900E869A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891C69C2DA2548900E869A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9863FD002DAC5A68000F563D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9863FD0D2DAC5A69000F563D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9863FD172DAC5A69000F563D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891C6832DA2548800E869A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891C6902DA2548900E869A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9891C69A2DA2548900E869A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9863FD132DAC5A69000F563D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9863FD032DAC5A68000F563D /* ChemoCoolMac */;
+			targetProxy = 9863FD122DAC5A69000F563D /* PBXContainerItemProxy */;
+		};
+		9863FD1D2DAC5A69000F563D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9863FD032DAC5A68000F563D /* ChemoCoolMac */;
+			targetProxy = 9863FD1C2DAC5A69000F563D /* PBXContainerItemProxy */;
+		};
+		9891C6962DA2548900E869A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9891C6862DA2548800E869A4 /* ChemoCool */;
+			targetProxy = 9891C6952DA2548900E869A4 /* PBXContainerItemProxy */;
+		};
+		9891C6A02DA2548900E869A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9891C6862DA2548800E869A4 /* ChemoCool */;
+			targetProxy = 9891C69F2DA2548900E869A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9863FD242DAC5A69000F563D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChemoCoolMac/ChemoCoolMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemoCool.ChemoCoolMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9863FD252DAC5A69000F563D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChemoCoolMac/ChemoCoolMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemoCool.ChemoCoolMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9863FD272DAC5A69000F563D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemoCool.ChemoCoolMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChemoCoolMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChemoCoolMac";
+			};
+			name = Debug;
+		};
+		9863FD282DAC5A69000F563D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemoCool.ChemoCoolMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChemoCoolMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChemoCoolMac";
+			};
+			name = Release;
+		};
+		9863FD2A2DAC5A69000F563D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemoCool.ChemoCoolMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChemoCoolMac;
+			};
+			name = Debug;
+		};
+		9863FD2B2DAC5A69000F563D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemoCool.ChemoCoolMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChemoCoolMac;
+			};
+			name = Release;
+		};
+		9891C6A62DA2548900E869A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9891C6A72DA2548900E869A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9891C6A92DA2548900E869A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8P83UYMJ24;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "App uses Bluetooth to read temperature data from your device.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemoCool.ChemoCool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9891C6AA2DA2548900E869A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8P83UYMJ24;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "App uses Bluetooth to read temperature data from your device.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemoCool.ChemoCool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9891C6AC2DA2548900E869A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemoCool.ChemoCoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChemoCool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChemoCool";
+			};
+			name = Debug;
+		};
+		9891C6AD2DA2548900E869A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemoCool.ChemoCoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChemoCool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChemoCool";
+			};
+			name = Release;
+		};
+		9891C6AF2DA2548900E869A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemoCool.ChemoCoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChemoCool;
+			};
+			name = Debug;
+		};
+		9891C6B02DA2548900E869A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChemoCool.ChemoCoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChemoCool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9863FD232DAC5A69000F563D /* Build configuration list for PBXNativeTarget "ChemoCoolMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9863FD242DAC5A69000F563D /* Debug */,
+				9863FD252DAC5A69000F563D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9863FD262DAC5A69000F563D /* Build configuration list for PBXNativeTarget "ChemoCoolMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9863FD272DAC5A69000F563D /* Debug */,
+				9863FD282DAC5A69000F563D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9863FD292DAC5A69000F563D /* Build configuration list for PBXNativeTarget "ChemoCoolMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9863FD2A2DAC5A69000F563D /* Debug */,
+				9863FD2B2DAC5A69000F563D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9891C6822DA2548800E869A4 /* Build configuration list for PBXProject "ChemoCool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9891C6A62DA2548900E869A4 /* Debug */,
+				9891C6A72DA2548900E869A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9891C6A82DA2548900E869A4 /* Build configuration list for PBXNativeTarget "ChemoCool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9891C6A92DA2548900E869A4 /* Debug */,
+				9891C6AA2DA2548900E869A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9891C6AB2DA2548900E869A4 /* Build configuration list for PBXNativeTarget "ChemoCoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9891C6AC2DA2548900E869A4 /* Debug */,
+				9891C6AD2DA2548900E869A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9891C6AE2DA2548900E869A4 /* Build configuration list for PBXNativeTarget "ChemoCoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9891C6AF2DA2548900E869A4 /* Debug */,
+				9891C6B02DA2548900E869A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9863FD372DAC5E1E000F563D /* XCRemoteSwiftPackageReference "ORSSerialPort" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/armadsen/ORSSerialPort";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9863FD382DAC5E22000F563D /* ORSSerial */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9863FD372DAC5E1E000F563D /* XCRemoteSwiftPackageReference "ORSSerialPort" */;
+			productName = ORSSerial;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9891C67F2DA2548800E869A4 /* Project object */;
+}
